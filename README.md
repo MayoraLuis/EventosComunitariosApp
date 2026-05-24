@@ -1,8 +1,8 @@
-SISTEMA DE EVENTOS COMUNITARIOS
+##SISTEMA DE EVENTOS COMUNITARIOS
 
-#Autores 
-Luis Ernesto Mayor Claros MC090391
-Hilda María Martínez de Reyes MD243315
+##Autores 
+#Luis Ernesto Mayor Claros MC090391
+#Hilda María Martínez de Reyes MD243315
 
 #  App de Eventos Comunitarios
 Aplicación móvil desarrollada con React Native y Expo para la gestión de eventos comunitarios.  
