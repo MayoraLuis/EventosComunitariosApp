@@ -1,50 +1,131 @@
-# Welcome to your Expo app 👋
+SISTEMA DE EVENTOS COMUNITARIOS
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+#Autores 
+Luis Ernesto Mayor Claros MC090391
+Hilda María Martínez de Reyes MD243315
 
-## Get started
+#  App de Eventos Comunitarios
+Aplicación móvil desarrollada con React Native y Expo para la gestión de eventos comunitarios.  
+El sistema permite a usuarios visualizar eventos, inscribirse, comentar, calificar y compartir eventos, mientras que los administradores pueden gestionar eventos y visualizar estadísticas mediante un dashboard interactivo.
 
-1. Install dependencies
+# CARACTERÍSTICAS PRINCIPALES
 
-   ```bash
-   npm install
-   ```
+##  Usuarios
+- Registro e inicio de sesión
+- Visualización de eventos
+- Inscripción a eventos
+- Comentarios y calificaciones
+- Compartir eventos en redes sociales y correo electrónico
+- Calendario visual de eventos
+- Modo oscuro
+- Visualización de eventos pasados
+  
+##Administrador
+- Crear eventos
+- Editar eventos
+- Eliminar eventos
+- Subir imágenes de eventos
+- Dashboard administrativo
+- Estadísticas y gráficas
+- Visualización de comentarios y calificaciones
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+#  TECNOLOGÍAS UTILIZADAS
+## Frontend
+- React Native
+- Expo
+- React Navigation
+- React Native Reanimated
+- Expo Linear Gradient
+- React Native Calendars
+## Backend
+- Node.js
+- Express.js
+## Base de datos
+- MySQL
+- XAMPP
+#INSTALAR DEPENDENCIAS FRONTEND
+- npm install
+#EJECUTAR APLICACIÓN MÓVIL
+- npx expo start
+# INSTALAR DEPENDENCIAS BACKEND
+- npm install express mysql2 cors
+# EJECUTAR BACKEND
+- node server.js
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## CONFIGURACIÓN DE BASE DE DATOS
+1- Abrir XAMPP
+2- Iniciar Apache y MySQL
+3- Abrir phpMyAdmin
+4- Crear la base de datos:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+CREATE DATABASE eventos_comunitarios;
+5- Importar el script SQL del proyecto
 
-## Get a fresh project
+## FUNCIONALIDADES IMPLEMENTADAS
+- Autenticación de usuarios
+- Roles administrador y usuario
+- CRUD de eventos
+- Dashboard con gráficas
+- Comentarios y calificaciones
+- Restricción de comentarios duplicados
+- Compartir eventos
+- Calendario interactivo
+- Modo oscuro global
+- Animaciones y UI moderna
+- Navegación con Bottom Tabs
+- Diseño responsive
 
-When you're ready, run:
+## MEJORAS UI/UX IMPLEMENTADAS
+- Hero headers modernos
+- Glassmorphism
+- Gradientes premium
+- Tarjetas animadas
+- Navegación moderna
+- Modo oscuro dinámico
+- Diseño responsive para dispositivos móviles
 
-```bash
-npm run reset-project
-```
+  # CAPTURAS DEL PROYECTO
+## Login
+<img width="281" height="570" alt="image" src="https://github.com/user-attachments/assets/14cb4ea9-061f-4485-981c-92d4797cb093" />
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Panel de usuario y administrador 
+<img width="248" height="520" alt="image" src="https://github.com/user-attachments/assets/2d06e09c-ef34-43da-8abb-3cfa8e5a86e6" />
+<img width="420" height="859" alt="image" src="https://github.com/user-attachments/assets/bf5f3d07-6850-46b8-9f95-bc1a37ce4b9f" />
 
-## Learn more
+## Dashboard (visible solo para el admin )
+<img width="357" height="726" alt="image" src="https://github.com/user-attachments/assets/272497ac-58c9-4789-91d7-43d32e003654" />
+<img width="358" height="723" alt="image" src="https://github.com/user-attachments/assets/6835ff7c-a416-40fe-a2cf-9f696f468cea" />
+<img width="417" height="562" alt="image" src="https://github.com/user-attachments/assets/feea9327-d0b2-4eb8-aad2-c5364264c80c" />
 
-To learn more about developing your project with Expo, look at the following resources:
+## Pantalla Crear Eventos (Exclusivo para Admin)
+<img width="278" height="564" alt="image" src="https://github.com/user-attachments/assets/3e7b1438-ff93-47d6-b9aa-f34cf76293d7" />
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# PANTALLAS USUARIO
+#Panel principal usuario 
+<img width="420" height="859" alt="image" src="https://github.com/user-attachments/assets/3e623451-e00e-4f47-b1dd-61f5a0851c74" />
 
-## Join the community
+# Pantalla para visualizar los eventos 
+<img width="418" height="869" alt="image" src="https://github.com/user-attachments/assets/369e216f-1dcd-41fe-86e3-048fc3385f21" />
 
-Join our community of developers creating universal apps.
+# Eventos inscritos
+<img width="413" height="654" alt="image" src="https://github.com/user-attachments/assets/9eea3366-fe4b-4536-b63c-4352d283b1ca" />
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Calendario de eventos
+<img width="421" height="830" alt="image" src="https://github.com/user-attachments/assets/dd3b4a8b-214e-4b71-a4a7-fd7ec1ec34aa" />
+
+# Pantalla para evaluar evento y comentar 
+<img width="414" height="870" alt="image" src="https://github.com/user-attachments/assets/2ba46d45-3d79-4bbf-8f1a-d6430a1d9a99" />
+
+
+
+
+
+
+
+
+
+
+
+
