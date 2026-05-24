@@ -103,7 +103,6 @@ CREATE DATABASE eventos_comunitarios;
 <img width="278" height="564" alt="image" src="https://github.com/user-attachments/assets/3e7b1438-ff93-47d6-b9aa-f34cf76293d7" />
 
 # PANTALLAS USUARIO
-#Panel principal usuario 
 <img width="420" height="859" alt="image" src="https://github.com/user-attachments/assets/3e623451-e00e-4f47-b1dd-61f5a0851c74" />
 
 # Pantalla para visualizar los eventos 
