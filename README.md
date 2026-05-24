@@ -86,6 +86,10 @@ CREATE DATABASE eventos_comunitarios;
 - Modo oscuro dinámico
 - Diseño responsive para dispositivos móviles
 
+# ENLACES DE INTERES 
+- Mock up link: https://canva.link/uisor74gp9pkm3e
+- Manual de usuario: https://drive.google.com/file/d/1gjh0EyWjyT4ugTUpQOOkSDZGWFjRhu3D/view?usp=sharing
+
   # CAPTURAS DEL PROYECTO
 ## Login
 <img width="281" height="570" alt="image" src="https://github.com/user-attachments/assets/14cb4ea9-061f-4485-981c-92d4797cb093" />
